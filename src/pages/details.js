@@ -26,7 +26,7 @@ const Details = () => {
 
         <button onClick={()=> router.push("/")} className="mt-10 bg-blue-400 h-10 w-20  border rounded-lg mb-4">Back</button>
 
-        <div className="flex gap-10">
+        <div className="flex flex-col md:flex-row  gap-10">
      
           <img src={data?.poster} className="h-[300px] w-[300px]" />
           <div className="p-2">
