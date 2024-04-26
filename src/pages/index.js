@@ -28,7 +28,7 @@ if(data.length == 0) return  "loading..."
 
   return (
     <main
-      className={`grid grid-cols-1 sm:frid-cols-3 md:grid-cols-4 gap-2 min-h-screen   p-24 `}
+      className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 min-h-screen   p-24 `}
     >
      { data?.map((item , index)=>{
       
